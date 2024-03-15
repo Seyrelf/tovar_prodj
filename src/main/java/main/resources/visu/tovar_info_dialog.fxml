@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane minHeight="170.0" minWidth="450.0" prefHeight="170.0" prefWidth="500.0" style="-fx-background-color: #B0C4DE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <buttonTypes>
+      <ButtonType fx:constant="CLOSE" />
+   </buttonTypes>
+   <effect>
+      <InnerShadow />
+   </effect>
+   <content>
+      <FlowPane prefHeight="200.0" prefWidth="448.0" vgap="4.0">
+         <children>
+            <Label text="Название:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="name_tovar_label" prefHeight="24.0" prefWidth="130.0" text=" Название:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="119.0" text="Тип обьекта:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="type_tovar_label" prefHeight="24.0" prefWidth="135.0" text="Товарное место">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="171.0" text="Личный вес нетто:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="netto_tovar_label" prefHeight="24.0" prefWidth="67.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="157.0" text="Вес нетто узлов:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="netto_child_label" prefHeight="24.0" prefWidth="69.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="170.0" text="Личный вес тары:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="tare_tovar_label" prefHeight="24.0" prefWidth="71.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="150.0" text="Вес тары узлов:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="tare_child_label" prefHeight="24.0" prefWidth="85.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="172.0" text="Личный вес бруто:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="bruto_tovar_label" prefHeight="24.0" prefWidth="72.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="158.0" text="Вес бруто узлов:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="bruto_child_label" prefHeight="24.0" prefWidth="60.0" text=" нетто">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="id_tovar_label" prefHeight="24.0" prefWidth="30.0" text="id:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="id_tovar_label" prefHeight="24.0" prefWidth="40.0" text=" ">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="210.0" text="Находиться в обьекте:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="idp_tovar_label" prefHeight="24.0" prefWidth="51.0" text="id:">
+               <font>
+                  <Font name="Arial Black" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+   </content>
+</DialogPane>

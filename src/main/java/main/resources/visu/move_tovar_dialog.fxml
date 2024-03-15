@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane minHeight="115.0" minWidth="417.0" prefHeight="115.0" prefWidth="430.0" style="-fx-background-color: #B0C4DE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <effect>
+      <InnerShadow />
+   </effect>
+   <header>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Перемещение обьекта">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </header>
+   <content>
+      <FlowPane hgap="5.0" maxHeight="13143.0" prefHeight="113.0" prefWidth="505.0" vgap="5.0">
+         <children>
+            <Label fx:id="label_place" minHeight="30.0" minWidth="160.0" style="-fx-background-color: #1E90FF;" text=" Место нахождения">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="place_choicebox" minWidth="125.0" prefHeight="30.0" prefWidth="234.0">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ChoiceBox>
+         </children>
+      </FlowPane>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="FINISH" />
+      <ButtonType fx:constant="CANCEL" />
+   </buttonTypes>
+</DialogPane>

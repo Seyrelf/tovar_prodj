@@ -1,0 +1,15 @@
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, rgba(96, 90, 90, 0.33), #555560);
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.anchor{
+    -fx-background-image:url("/image/fon.png");
+    -fx-height: 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

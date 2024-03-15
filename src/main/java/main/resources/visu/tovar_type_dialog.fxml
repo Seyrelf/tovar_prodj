@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<DialogPane prefHeight="142.0" prefWidth="349.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane prefHeight="79.0" prefWidth="343.0">
+         <children>
+            <ChoiceBox fx:id="type_choicebox" layoutX="20.0" layoutY="15.0" prefHeight="44.0" prefWidth="334.0">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ChoiceBox>
+         </children>
+      </AnchorPane>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="OK" />
+      <ButtonType fx:constant="CANCEL" />
+   </buttonTypes>
+   <header>
+      <Label fx:id="label_type" alignment="CENTER" prefHeight="27.0" prefWidth="262.0" text="Тип создаваемого обьекта:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </header>
+</DialogPane>
